@@ -23,7 +23,7 @@ nav {
 
 img {
   width: 100%;
-  padding: 40px 0 50px;
+  padding: 0px 0 5px;
 }
 
 p {
@@ -113,7 +113,7 @@ li {
 
 .menu--open {
   max-height: 100vh;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .menu--open .menu__backdrop {
@@ -134,7 +134,7 @@ li {
 
 .menu__link {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .btn__menu--close {
@@ -368,17 +368,23 @@ footer {
   filter: grayscale(1) invert(1);
 }
 
-.footer__link,
+.footer__link {
+    color: #fff;
+    
+}
+
 .footer__copyright {
   color: #fff;
+ 
 }
 
 .footer__list {
-  margin: 20px 0 24px 0;
+  margin: 16px 0 24px 0;
+  
 }
 
 .footer_link {
-  padding: 0 8px;
+  padding: 0 18px;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
